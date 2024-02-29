@@ -261,6 +261,12 @@ class P3270Client():
         logger.info("Erase character")
         return self.s3270.do('Erase')
 
+    def eraseInput(self):
+        """ Replaces all modifiable fields with NUL characters.
+        """
+        logger.info("Erase input")
+        return self.s3270.do('EraseInput')
+
     def moveCursorDown(self):
         """ Move cursor Down.
         """

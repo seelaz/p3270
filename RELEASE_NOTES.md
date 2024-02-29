@@ -30,3 +30,6 @@
 - Added waitForField - will wait for the field to be ready where the cursor is.
 - Added foundTextAtPosition, will look at a given position and return true if the text requested is found, false if not.
 - Added readTextArea - takes 4 parameters; coordinates for row and column, as well as a length for both columns and rows to read. If more than one row is read, it will return a list of strings split on newline.
+
+# v0.1.4
+- Added EraseInput - will replace all modifiable fields with NUL characters
